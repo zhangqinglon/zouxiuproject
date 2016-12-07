@@ -1,0 +1,82 @@
+
+
+
+#wrap-header{ width: 1280px;}
+.header{ width: 925px; margin: 0 auto; padding:15px 0; border-bottom: 1px solid black;}
+.header .header-r{ margin-top: 8px;}
+.header .header-r .header-r-t{}
+.header .header-r .header-r-t label{ font-size: 12px; color:black;}
+.header .header-r .header-r-t span{ font-size: 14px; color: orange; margin-left: 2px;}
+.header .header-r .header-r-t a,
+.header .header-r .header-r-b a{ text-decoration: none; color: #5b5b5b; margin-left: 4px;}
+.header .header-r .header-r-b{ margin-top: 10px;}
+.header .header-r .header-r-b label{ font-size: 12px; color:black;}
+
+/*  购物车的主体   */
+#wrap-goodmess{width: 1280px;}
+.goodmess{ width: 925px; margin: 0 auto; border-bottom: 1px solid black; padding-bottom: 28px;}
+.goodmess .goodmess-statu{ padding: 16px 0 14px 0;}
+.goodmess .goodmess-statu span { width: 305px; height: 30px; background: #e2e2e2; display: inline-block; text-align: center; line-height: 30px; color: white;}
+.goodmess .goodmess-statu span.span1{ background: #82bf38;}
+
+.goodmess .goodmess-detial{ }
+.goodmess .goodmess-detial p{background: #e3e3e3; height: 32px; line-height: 32px;}
+.goodmess .goodmess-detial p input{ width: 60px; text-align: center;}
+.goodmess .goodmess-detial p span{ text-align: center; display: inline-block}
+.goodmess .goodmess-detial p .shangpin{ width: 330px;}
+.goodmess .goodmess-detial p .goumaijia{ width: 110px;}
+.goodmess .goodmess-detial p .xiaoji{ width: 110px;}
+.goodmess .goodmess-detial p .num{ width: 130px;}
+.goodmess .goodmess-detial p .caozuo{ width: 120px;}
+
+
+/*拼接字符串的样式*/
+.goodmess-detial-box{ }
+.goodmess-detial-box .goodmess-detial-box-boxnum{ border: 1px solid #C1C1C1; 
+margin-top: 2px; width: 925px;height: 84px; line-height: 84px; background: pink;}
+.goodmess-detial-box input.xuanze{ margin-left: 22px; line-height: 80px; display: inline-block; margin-top: 30px;}
+.goodmess-detial-box img{ height: 78px; border: 1px solid #CCCCCC; width: 90px; margin-left: 80px;}
+.goodmess-detial-box .shuxing{ margin-left: 20px;}
+.goodmess-detial-box .shuxing p{ width: 210px; height: 20px; line-height: 20px; background: pink;
+ font-size: 14px; margin-top: 2px;
+}
+.goodmess-detial-box .ogoumaijia{ margin-left: 10px; width: 84px;}
+.goodmess-detial-box .oxiaoji{ margin-left: 40px; width: 95px;}
+
+.goodmess-detial-box .shuliang{ width: 108px;  margin-left: 30px; margin-top: 30px;}
+.goodmess-detial-box .shuliang button{ width: 18px; height: 18px; line-height: 18px; text-align: center; padding: 0; margin: 0 2px;}
+.goodmess-detial-box .shuliang .iptext{ width: 60px; height: 20px; line-height: 20px; text-align: center;}
+.goodmess-detial-box .del{ margin-left: 10px;}
+/**复选框的样式*/
+.goodmess-detial-box .goodmess-detial-box-boxnum .active{ background: pink; opacity: 0.7;}
+
+
+
+.goodmess .goodmess-setmeun{ height: 50px; line-height: 50px; border: 1px solid #C1C1C1; margin-top: 10px;}
+.goodmess .goodmess-setmeun input{ margin-left: 20px;}
+.goodmess .goodmess-setmeun span{ text-align: center; display: inline-block;}
+.goodmess .goodmess-setmeun span.alldele { margin-left: 40px; display: inline-block;}
+.goodmess .goodmess-setmeun span.dellose{ margin-left: 40px; display: inline-block;}
+.goodmess .goodmess-setmeun span.move{ margin-left: 40px;}
+.goodmess .goodmess-setmeun span.ochecked{ margin-left: 40px;}
+.goodmess .goodmess-setmeun span.otatal{ margin-left: 40px;}
+.goodmess .goodmess-setmeun .otatal-show{ width: 80px; display: inline-block;}
+.goodmess .goodmess-setmeun button.gotosend{ margin-left: 130px; width: 113px; height: 48px; display: inline-block; background: #eb7416; color: white; font-size: 18px;}
+.goodmess .goodmess-setmeun i.yixuan{ display:inline-block; width: 25px; height: 15px; margin: 0 4px; text-align: center;}
+
+
+.goodmess .goodmess-mycook{ margin-top: 33px;}
+.goodmess .goodmess-mycook label{ width: 34px; height: 34px; line-height: 34px; text-align: center; background: #fd8c0f; color: white;}
+.goodmess .goodmess-mycook .span1{ width: 133px; height: 34px; background: #cac8cc; display: inline-block; text-align: center; line-height: 34px;}
+.goodmess .goodmess-mycook .span2{ margin-left: 20px;}
+.goodmess .goodmess-mycook .span2 a{ color: orange;}
+
+
+
+
+
+
+#wrap-footer{width: 1280px;}
+.footer{ width: 925px; margin: 0 auto; text-align: center;}
+.footer p{ width: 506px; height: 44px; line-height: 44px; display: inline-block;
+margin: 0 auto; font-size: 12px; text-align: center;}

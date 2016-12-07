@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<!--js plugin -->
+		<script type="text/javascript" src="libs/jquery/jquery-2.1.1.min.js" ></script>
+		
+		<link rel="stylesheet" href="css/shopcar.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<script type="text/javascript" src="js/shopcar.js" ></script>	
+		<!--css framework -->
+		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+		<script type="text/javascript" src="js/cookie.js" ></script>
+		<script type="text/javascript" src="libs/cookie/jquery.cookie.js" ></script>
+	</head>
+	<body>
+		<div id="wrap-header">
+			<div class="header clear">
+				<div class="header-l fl">
+					<img src="img/carbg.jpg" />
+				</div>
+				<div class="header-r fr">
+					<div class="header-r-t">
+						<label>客服热线(免长途)</label><span>400-880-9999</span>
+						<a href="#">在线客服</a>
+					</div>
+					<div class="header-r-b">
+						<label>你好，欢迎光临走秀网</label>
+						<a href="login.html">[登录/注册]</a>
+						<a href="#">帮助中心</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="wrap-goodmess">
+			<div class="goodmess">
+				<div class="goodmess-statu">
+					<span class="span1">1.我的购物车</span>
+					<span>2.填写并核对订单信息</span>
+					<span>3.成功提交订单</span>
+				</div>
+				<div class="goodmess-detial">
+					<p>
+						<input type="checkbox" class="allxuan"/><label>全选</label>
+						<span class="shangpin">商品</span>
+						<span class="goumaijia">购买价</span>
+						<span class="xiaoji">小计</span>
+						<span class="num">数量</span>
+						<span class="caozuo">操作</span>
+					</p>
+					
+					<!--商品显示区域-->
+					<div class="goodmess-detial-box clear">
+					  <!--<div class="goodmess-detial-box-boxnum">
+						<input type="checkbox" class="fl xuanze" />
+						<img src="img/xiaoxie.jpg" class="fl" />
+						<div class="fl shuxing">
+							<p>Maserati </p>
+							<p>颜色 : 外观色：蓝色 </p>
+						</div>
+						<span class="fl ogoumaijia">￥：1234567</span>
+						<span class="fl oxiaoji">￥：1234567</span>
+						<div class="fl shuliang clear">
+							<button class="fl btnjian">—</button>
+							<input type="text" class="iptext fl" value="1"/>
+							<button class="fl btnjia">+</button>
+							
+						</div>
+						<div class="fl del">
+							<span>移至收藏夹</span>
+							<span class="delbtn">删除</span>
+						</div>
+					</div>-->
+					</div>
+					
+				</div>
+				<div class="goodmess-setmeun">
+					<input type="checkbox" class="allcheck"/>全选
+					<span class="alldele">删除</span>
+					<span class="dellose">清除失效商品</span>
+					<span class="move">移至收藏夹</span>
+					<span class="ochecked">已选商品</span><i class="yixuan">0</i>件
+					<span class="otatal">总价</span><i class="otatal-show">0</i>
+					<button class="gotosend">结算</button>
+				</div>
+				<div class="goodmess-mycook">
+					<label>—</label><span class="span1">看看比收藏的商品</span><span class="span2">请
+						<a href="login.html">登录</a>后查看你收藏的商品</span>
+						<a href="list.html">继续回去购物</a>
+				</div>
+			</div>
+		</div>
+		
+		<div id="wrap-footer">
+			<div class="footer">
+				<p>Copyright &copy; 2008 Xiu.com 深圳走秀网络科技有限公司 版权所有 粤ICP备07502993号</p>
+			</div>
+		</div>
+		
+	</body>
+</html>

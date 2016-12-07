@@ -1,0 +1,56 @@
+
+#wrap-header{ width: 1308px; border-bottom: 1px solid black;}
+.header{ width: 963px; margin: 0 auto; padding: 35px 0 26px 0;}
+.header img{ display: inline-block;}
+
+#wrap-contanier{ width: 1308px; background: #f7f2ec; padding-bottom: 40px;}
+
+.contanier{width: 963px; margin: 0 auto; background: url(../img/logobg.gif) no-repeat left center;}
+.contanier form{ width: 350px;padding-bottom: 35px; border-left: 1px solid #C2C2C2; margin-left: 579px;}
+
+form legend{ width: 283px; display:block; height: 30px; line-height: 30px; margin: 0 auto; border-bottom: none; font-weight: bold;}
+form input{ width: 278px; display:block; height: 38px; line-height: 38px; margin: 0 auto; margin-top: 20px; margin-bottom: 0;}
+
+form .jizhu{ width: 16px; height: 16px; display: inline-block; margin-left: 36px; margin-top: 24px;
+     margin-bottom: 24px;
+}
+form .mian{ width: 16px; height: 16px; display: inline-block; margin-left: 30px; margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+form .p1{ width: 274px; height: 38px; display:block; margin-left: 30px;}
+form .p1 .btnlog{ width: 101px; height: 38px; background: #b91401; color: white; text-align: center;
+  height: 38px; margin-top: 0; display: inline-block;
+}
+
+.contanier .container-b{ width: 351px; background: #f9f9f9; 
+border-left: 1px solid #C2C2C2; margin-left: 579px;}
+.container-b p{width: 340px; height: 32px; line-height: 32px; text-align: center; margin-left: 15px;}
+.container-b p .ahezuo{ color: black;text-decoration: none;}
+.container-b p .ahuiy { color: red;text-decoration: none;}
+.container-b p .ahuiy:hover{ color: blue;}
+.container-b p .span2{ width: 340px; height:32px; line-height: 32px;}
+
+
+.container-b ul{ width: 294px; margin-left: 18px;display: block;}
+.container-b ul li{ float: left; width: 94px; height: 20px; line-height: 20px;}
+
+.container-b ul .li1{ background: url(../img/denglv_03.jpg) no-repeat left center;}
+.container-b ul .li2{ background: url(../img/denglv_05.jpg) no-repeat left center;}
+.container-b ul .li3{ background: url(../img/denglv_07.jpg) no-repeat left center;}
+.container-b ul .li4{ background: url(../img/denglv_13.jpg) no-repeat left center; width: 130px; display: inline-block; height: 20px;}
+.container-b ul .li5{ background: url(../img/denglv_16.jpg) no-repeat left center; width: 130px;
+display: inline-block;height: 20px;
+}
+.container-b ul a{ text-indent: 23px; text-decoration: none; display: inline-block;}
+
+
+.container-b ul li:hover a{ color: red;}
+
+
+#wrap-footer{ width: 1308px;}
+.footer { height: 57px; line-height: 57px; width: 800px; margin: 0px auto; width: 963px;}
+.footer ul{ width: 740px; margin: 0 auto;}
+.footer ul li{ height: 57px; line-height: 57px; float: left;}
+.footer ul li a{ padding: 0 8px; border-right: 1px solid #C0C0C0; height: 12px; line-height: 12px; font-size: 10px; color: black; display: inline-block; font-size: 12px;}
+.footer .footer-3{ height: 28px; width: 570px; margin: 0 auto; line-height: 28px; font-size: 12px;}

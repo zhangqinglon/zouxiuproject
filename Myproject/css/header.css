@@ -1,0 +1,71 @@
+
+
+.header,.nav{ width: 1200px; margin: 0 auto; }
+
+/*  头部 */
+#wrap-header{ width: 1410px; background: #333333; position: fixed; top: 0; z-index: 100;}
+.header{ padding-bottom: 10px;}
+.header .h-l ul{ height: 38px; line-height: 38px;}
+.header .h-l a{ color: #d7d7d7;}
+.header .h-l .h-l-span1{ width: 65px; text-align: center; color: #d7d7d7;}
+.header .h-l .h-l-span2{ width: 100px; text-align: center; color: #d7d7d7; display: block;  position: relative; line-height: 38px;}
+.header .h-l .h-l-span2 div{ width: 200px; height: 56px; display: none; background: white; position: absolute; left:0px; top: 38px;}
+.header .h-l .h-l-span2:hover{ background: white; }
+.header .h-l .h-l-span2:hover a{color: red;}
+.header .h-l .h-l-span2:hover div{ display: block;}
+.h-l-span2 .mygoodnum{ display:inline-block; width: 14px; height: 14px; font-size: 14px; margin: 0 2px; color: red;}
+
+
+.header .h-l .h-l-span3{ width: 76px; text-align: center; color: #d7d7d7; position: relative;}
+.header .h-l .h-l-span3:hover{ background: white;}
+.header .h-l .h-l-span3:hover a{color: red; text-decoration: none;}
+.header .h-l .h-l-span3 ul{display: none; width: 68px; height: 90px; position: absolute;}
+.header .h-l .h-l-span3 ul li{ display: block; height: 18px;}
+.header .h-l .h-l-span3:hover ul{ display: block; background: white; z-index: 100;}
+.header .h-l .h-l-span3:hover ul li a{ color: black;}
+
+.header .h-c{ margin-left: 12px;}
+.header .h-c .h-c-t a{ display: block; height: 54px; line-height: 54px; text-align: center;}
+.header .h-c .h-c-b ul li{ height: 36px; float: left; margin-left:40px;  font-size: 10px; line-height: 36px; text-align: center; padding: 0 4px; display: block; margin-bottom: -10px;}
+.header .h-c .h-c-b ul li a{ color: white;}
+.header .h-c .h-c-b ul li:hover{ border-bottom: 1px solid #C1C3C4;}
+.header .h-c .h-c-b ul li:hover a{ color: red; text-decoration: none;}
+
+.header .h-r{ margin-top: 10px; border: 1px solid #787878; height: 30px; margin-left: 4px;}
+.header .h-r .search{width: 228px; height: px; line-height: 26px; background: #333333; border: none; color: #787869; text-indent: 8px; outline: none;}
+.header .h-r .btn{ width: 33px; height: 26px; background: url(../img/btnsearch.gif) no-repeat center;}
+
+/*  导航       */
+#wrap-nav{ width: 1410px; background: #f7f7f7; position: fixed; top: 90px; z-index: 99;}
+.nav ul{height:42px ; width: 740px; margin: 0 auto;}
+.nav ul li{ float: left; height:40px ; line-height: 40px; border: 1px solid #f7f7f7; 
+padding: 0 10px; margin-left: 24px; position: relative; display: block; width: 50PX;}
+.nav ul li a{ color: #000000; text-decoration: none; display: inline-block; font-size: 12px;}
+.nav ul li:hover{ background: white; border: 1px solid #C2C2C2; border-bottom: 2px solid white;}
+
+.nav ul li .licontent{width: 672px; position: absolute; top: 40px; 
+left: 0; background: white; display: none; border: 1px solid #C0C0C0;}
+.nav ul li .licontent .bao-left{ margin-left: 10px; width: 410px;}
+.nav ul li .licontent .bao-right{ margin-left: 20px; width: 227px;}
+.nav ul li:hover .licontent{display: block;}
+
+.nav ul .li1 .licontent{ width: 672px; height: 420px;}
+.nav ul .li1 .licontent .bao-left{ width: 370px;}
+.nav ul .li1 .licontent .bao-left dl{ border-bottom: 1px dotted #C0C0C0;}
+.nav ul .li1 .licontent .bao-left dl dt{ display:block;}
+.nav ul .li1 .licontent .bao-left dl dt a{font-weight: bold; color: red; display: inline-block;}
+
+.nav ul .li1 .licontent .bao-left dl dd {margin-top: 0;}
+.nav ul .li1 .licontent .bao-left dl dd a{ height: 14px;}
+
+.nav ul .li1 .licontent .bao-right{width: 200px;}
+
+
+
+.nav ul .li3 .licontent{ width: 800px; height: 500px; position: absolute; top: 40px; left: 0px;}
+.nav ul .li5 .licontent{ width: 609px; height: 500px; position: absolute; top: 40px; left: -56px;}
+.nav ul .li6 .licontent{ width: 597px; height: 470px; position: absolute; top: 40px; left: -145px;}
+.nav ul .li7 .licontent{ width: 600px; height: 500px; position: absolute; top: 40px; left: -205px;}
+.nav ul .li8 .licontent{ width: 598px; height: 600px; position: absolute; top: 40px; left: -245px;}
+.nav ul .li9 .licontent{ width: 610px; height: 400px; position: absolute; top: 40px; left: -314px;}
+

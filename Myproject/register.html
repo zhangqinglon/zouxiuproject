@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		
+		
+		<!--css 和  cssplugin-->
+		
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="libs/jquery-confirm/jquery-confirm.css" />
+		<link rel="stylesheet" href="libs/bootstrap-3.3.0-dist/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/register.css" />
+		<!--js 和  JQplugin-->
+		<script type="text/javascript" src="libs/jquery/jquery-2.1.1.min.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
+		<script type="text/javascript" src="js/cookie.js" ></script>
+		<script type="text/javascript" src="libs/jquery-validation-1.15.0/dist/jquery.validate.extend.methods.js" ></script>
+		<script type="text/javascript" src="libs/jquery-validation-1.15.0/dist/jquery.validate.min.js" ></script>
+		<script type="text/javascript" src="libs/jquery-validation-1.15.0/dist/localization/messages_zh.min.js" ></script>
+		
+	</head>
+	<body>
+		<div id="wrap-header">
+			<div class="header">
+				<img src="img/relogo.jpg"/>
+			</div>
+		</div>
+		
+		<div id="wrap-contanier">
+			<div class="contanier">
+				<form  method="post" id="loginbox" class="box" >
+					<legend>
+						用户注册
+						<span ><a href="#">注册即送880元 如何领取?</a></span>
+					</legend>
+					
+					<p>
+						<i class="fa fa-asterisk" style="color: red;"></i>
+						<label class="ospan" for="phone">手机:</label>
+						<input type="text" id="phone" name="phone"/>
+						<br />
+						<div class="clear mima">
+						 <span class="span1 fl">免费获取验证码</span><em class="em1 fl"></em>
+						</div>
+					</p>  
+					<p class="yanzheng">
+						<i class="fa fa-asterisk" style="color: red;"></i>
+						<label class="ospan" for="pass">验证码:</label>
+						<input type="text" id="yan" name="yan" />
+					</p>  
+					<p>
+						<i class="fa fa-asterisk" style="color: red;"></i>
+						<label class="ospan" for="pass">密码:</label>
+						<input type="password" id="pass" name="pass" /><br />
+						<span class="span2">密码强度:</span><em class="one"></em><em class="two"></em><em class="three"></em>
+					</p>
+					<p>
+						<i class="fa fa-asterisk" style="color: red;"></i>
+						<label class="ospan" for="repass">确认密码:</label>
+						<input type="password"  id="repass" name="repass" />
+					</p>
+					<p style="margin-left: 35px;">
+						
+						<label class="ospan" for="mail">邮件:</label>
+						<input type="text" id="mail" name="mail"/>
+					</p>
+					<p class="p2">
+						
+                        <input type="checkbox" id="agree" name="agree" class="agree"/>
+                        <label for="agree" class="agreelable">我已阅读并接受<走秀网用户协议></label>
+                        
+			        </p>
+					<br />
+					<p class="p3">
+						<input type="button" value="同意协议并注册" class="login"/>
+						<label class="label1"><a href="login.html">已有账号？直接登录</a></label>
+					</p>
+		</form>
+			</div>
+		</div>
+		
+		<div id="wrap-footer">
+			<div class="footer">
+				<ul class="clear">
+              		<li><a href="#">关于走秀</a></li>
+              		<li><a href="#">about us</a></li>
+              		<li><a href="#">媒体报道</a></li>
+              		<li><a href="#">品牌招商</a></li>
+              		<li><a href="#">加入走秀</a></li>
+              		<li><a href="#">网站地图</a></li>
+              		<li><a href="#">联系我们</a></li>
+              		<li><a href="#">品牌大全</a></li>
+              		<li><a href="#">邮件订阅</a></li>
+              		<li><a href="#">品牌专题</a></li>
+              		<li><a href="#">WAP站点</a></li>
+              	</ul>
+              	 <div class="footer-3">
+			  	<p>Copyright &copy; 2008 Xiu.com 深圳走秀网络科技有限公司 版权所有 粤ICP备07502993号</p>
+			  </div>
+			</div>
+		</div>	
+	</body>
+</html>

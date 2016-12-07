@@ -1,0 +1,128 @@
+
+
+#footerbox{}
+
+#wrap-listbg{ width: 1263px; margin-top: 143px; }
+#wrap-listbg a img{width: 1000px; height: 62px; margin: 0 auto; display: block;}
+
+#wrap-loaction{ width: 1263px;}
+.location{ width: 1003px; margin: 30px auto; }
+.location label{ margin: 0 6px; font-size: 14px; height: 20px; line-height: 20px;}
+.location ul{ display: inline-block; margin-top: 1px;}
+.location ul li i{ margin: 2px;}
+.location ul li{ float: left; border: 1px solid white; border-bottom: 2px solid white;}
+.location ul li ul{ width: 300px; position: absolute; border: 1px solid orange; background: white;display: none;
+}
+.location ul li ul li{}
+.location ul li ul li a{ padding: 4px 4px; display: inline-block; height: 18px; line-height: 18px;}
+.location .gongji label{color: red;}
+
+#wrap-xuanze{ width: 1263px;}
+.xuanze{ width: 1003px; margin: 30px auto; }
+.xuanze .xuanze-t{ width: 999px; height: 74px; border: 1px solid #C1C1C1;}
+.xuanze .xuanze-t span{ width: 76px; height: 72px; background: #f9f9f9;
+ display: inline-block; text-align: center; line-height: 72px;}
+ .xuanze .xuanze-t-r{ width: 920px; height: 72px; background: #efefef;}
+ .xuanze .xuanze-t-r a{ display: inline-block; width: 120px; height: 34px; line-height: 34px; text-align: center; font-size: 16px; color: #8b6ca1;}
+ 
+ 
+.xuanze .xuanze-b{width: 999px; height: 44px; border: 1px solid #C1C1C1;}
+.xuanze .xuanze-b span{ width: 76px; height: 42px; background: #f9f9f9;
+ display: inline-block; text-align: center; line-height: 42px;}
+ .xuanze .xuanze-b-r{ width: 920px; height: 42px; background: white;}
+ .xuanze .xuanze-b-r a{ display: inline-block; width: 100px; height: 34px; line-height: 34px; text-align: center;font-size: 16px; color: #8b6ca1;}
+ .xuanze .xuanze-b-r label{ margin-left: 140px;}
+.xuanze .xuanze-b-r input{ width: 37px; height: 23px; background: white; line-height: 23px;}
+.xuanze .xuanze-b-r .btn{ width:50px ;height: 28px; line-height: 28px; font-size: 10px; padding: 0;}
+
+.xuanze .ohide{width: 999px; height: 28px; border: 1px solid #C1C1C1; border-bottom: 1px solid orange;}
+.xuanze .ohide span{ width: 76px; height: 28px; background: #f9f9f9;
+ display: inline-block; text-align: center; line-height: 28px;}
+.xuanze .xuanze-oh-r{ width: 920px; height: 28px; background: #efefef;}
+ .xuanze .xuanze-oh-r a{ display: inline-block; width: 100px; height: 28px; line-height: 28px; text-align: center;font-size: 14px; color: #8b6ca1;}
+
+.xiala{ width: 278px; height: 27px; line-height: 27px; margin: 0 auto; text-align: center;
+ background: orange; border-radius: 10%;
+}
+
+/**回到顶部*/
+#totop{width: 86px; position: fixed; right: 10px; top: 60%;}
+#totop a{text-decoration: none;}
+#totop ul{width: 120px; border: 1px solid #0060BF;}
+#totop ul li{width: 120px; height: 40px; line-height: 40px; border-bottom: 1px solid #C1C3C4; text-align: center;}
+#totop ul li a{width: 86px;display: inline-block; font-size: 14px;color: black;}
+#totop ul li.otop{width: 86px;display: inline-block; text-align: center; font-size: 14px; color: black; }
+#totop ul li i{ text-align: left;}
+
+#totop li:hover{ background: orange;}
+#totop li.li1{ color: red; text-align: center; font-weight: bold; 
+height: 50px; line-height: 50px; font-size: 20px;}
+
+
+
+
+/*  微信 app   */
+#weixingsao{ width: 108px; height: 146px; position: fixed; left: 20px; top: 60%;}
+
+
+
+
+/*商品头部*/
+#wrap-dataheader{width: 1263px;}
+.dataheader{ width: 1003px; height: 36px;border: 1px solid #CCCCCC; border-top: 1px solid orange; margin: 0 auto; background: #f9f9f9; line-height: 36px;}
+.dataheader span{ width: 62px; height: 22px; border: 1px solid #C0C0C0; display: inline-block; line-height: 22px; text-align: center;}
+.dataheader .totime{ width: 68px;}
+.dataheader .moren{ margin-left: 20px; display: inline-block;}
+.dataheader label{ margin-left: 30px; display: inline-block;}
+.dataheader .currentye{ margin-left: 190px;}
+.dataheader button{ width: 55px; height: 20px; line-height: 20px; text-align: center;}
+.dataheader i{ margin-left: -9px;}
+
+
+/*商品显示区*/
+#wrap-goodlist{width: 1263px;}
+.goodlist{ width: 1003px; margin: 0 auto;}
+.goodlist .dabox{ width: 1003px;}
+.goodlist ul li.goodshow{ height: 430px; width: 220px; overflow: hidden;cursor: pointer; text-align: center; border: 1px solid #C1C1C1; margin-left: 20px; margin-top: 4px; float: left;}
+.goodlist ul li.goodshow a{ position: relative;}
+.goodlist ul li.goodshow a span{ margin-left: 20px; color: red;}
+.goodlist ul li.goodshow:hover{ border-color: orange;}
+.goodlist ul li.goodshow p{ width: 100%; height: 30px; line-height: 30px; font-size: 16px;}
+.goodlist ul li.goodshow .jiarche{ width: 80px; height: 30px; text-align: center; line-height: 30px;
+  background: #C1E2B3; z-index: 100;
+}
+.goodlist ul li.goodshow a:hover .ojunma{ display: block;}
+.goodlist .ojunma{ width: 220px; height: 60px; background: white; opacity: 0.5; text-align: center;
+      line-height: 60px; border: 1px solid #C0C0C0; display: none; position: absolute; bottom: 0;
+}
+
+
+/*动态添加按钮*/
+#wrap-pagnbtn{width: 1263px;}
+.pagnbtn{width: 1003px; margin: 15px auto; }
+.pagnbtn .btn-group{ margin-left: 500px;}
+.pagnbtn .btn-group button.btn{ width: 50px; height: 28px; line-height: 28px; text-align: center; margin-left: 4px; text-align: center; padding: 0; border: 1px solid deepskyblue;}
+
+
+/*搜索*/
+#wrap-sear{ width: 1263px;}
+.sear{width: 1003px; margin: 8px auto; height: 90px; line-height: 90px; background: #f6f6f6;}
+.sear input.osear{ width: 480px; height: 37px; line-height: 37px;  display:inline-blockblock; margin-left: 214px; margin-top: 27px; border: 1px solid #ea7515;}
+.sear input.obtn{ width: 84px; height: 37px; line-height: 37px; text-align: center;
+  background: #ea7515; color: white; border: 1px solid #ea7515; display:inline-block;
+}
+
+/*轮播图*/
+#wrap-lunbo{width: 1263px;}
+.lunbo{width: 1003px; margin: 8px auto; margin-bottom: 10px;}
+.lunbo p{ width: 100%; height: 30px; font-size: 20px; line-height: 30px; color: red;}
+.lunbo .lunbobox{ width: 1003px; height: 380px; border: 1px solid #C1C1C1; 
+position: relative; overflow: hidden;}
+.lunbobox ul{ height: 380px; position: absolute;}
+.lunbobox ul li{ float: left; width: 1003px; height: 380px;}
+.lunbobox ul li img{ width: 195px; height: 380px;}
+
+
+.lunbobox .oprev{ width: 40px; height: 60px; position:  absolute; left: 10px; top: 160px; border: 1px solid #C0A16B; text-align: center; line-height: 60px; font-size: 30px; font-weight: bold;}
+.lunbobox .onext{ width: 40px; height: 60px; position:  absolute; right: 10px; top: 160px; border: 1px solid #C0A16B; text-align: center; line-height: 60px; font-size: 30px;font-weight: bold;}
+

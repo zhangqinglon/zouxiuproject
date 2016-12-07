@@ -1,0 +1,99 @@
+#wrap-nav{ width: 1410px; background: #f7f7f7;}
+.nav ul{height:42px ; width: 740px; margin: 0 auto;}
+.nav ul li{ float: left; height:40px ; line-height: 42px; border: 1px solid #f7f7f7; 
+padding: 0 10px; margin-left: 24px; position: relative; display: block;}
+.nav ul li a{ color: #000000; text-decoration: none; display: inline-block; font-size: 12px;}
+.nav ul li:hover{ background: white; border: 1px solid #C2C2C2; border-bottom: 2px solid white;}
+
+.nav ul li .licontent{width: 672px; position: absolute; top: 40px; 
+left: 0; background: white; display: none; border: 1px solid #C0C0C0;}
+.nav ul li .licontent .bao-left{ margin-left: 10px; width: 410px;}
+.nav ul li .licontent .bao-right{ margin-left: 20px; width: 227px;}
+
+.nav ul li.li1 .licontent .bao-right dd{ display: block; width: 70px; height: 28px; float: left;}
+.nav ul li.li1 .licontent .bao-left dl{ border-bottom: 1px dotted #C0C0C0; width: 410px ; height: 58px; line-height: 62px; margin-bottom: 0px;}
+.nav ul li.li1 .licontent dl dt { height: 20px;}
+.nav ul li.li1 .licontent dl dt h4 a{ height: 14px; font-weight: bold;}
+.nav ul li.li1 .licontent dl dd a{padding: 0 10px 0 6px; display: inline-block; height: 14px; line-height: 18px;}
+
+.nav ul li.li1 .licontent dl dt h4:hover a{ color: orange;}
+.nav ul li.li1 .licontent dl dd a:hover{ color: orange;}
+.nav ul li:hover .licontent{display: block;}
+
+.nav ul .li2 .licontent-t,
+.nav ul .li2 .licontent-b{ height: 316px; border-bottom: 1px dotted #C0C0C0; padding-top: 8px;}
+.nav ul li.li2 .licontent-b .bao-left dl,
+.nav ul li.li2 .licontent-t .bao-left dl{ margin-bottom: 0px; line-height: 12px; display: block;}
+
+.nav ul .li2 .licontent{ height: 632px;}
+.nav ul .li2 .licontent dl a{ display: inline-block;padding: 0 4px;}
+.nav ul .li2 .licontent dl a:hover{ color: red;}
+
+.nav ul .li3 .licontent{ width: 570px;}
+.nav ul .li3 .licontent-l{ width: 352px;}
+.nav ul .li3 .licontent-r { width: 184px; margin-left: 22px;}
+.nav ul .li3 .licontent-r dl dd a{ display: inline-block; width: 82px;}
+.nav ul .li3 .licontent dl a:hover{ color: red;}
+
+.nav ul .li4 .licontent{ width: 597px; height: 387px; position: absolute; top: 40px; left: -40px;}
+.nav ul .li4 .licontent dl{ margin-bottom: 0px; border-bottom: 1px dotted #C2C2C2; height: 40px;}
+.nav ul .li4 .licontent .licontent-l{ width: 360px;}
+.nav ul .li4 .licontent .licontent-r{ width: 200px;}
+.nav ul .li4 .licontent-r dl dd a{ display: inline-block; width: 90px;}
+.nav ul .li4 .licontent dl a:hover{ color: red;}
+
+.nav ul .li5 .licontent{ width: 609px; height: 240px; position: absolute; top: 40px; left: -56px;}
+.nav ul .li6 .licontent{ width: 597px; height: 470px; position: absolute; top: 40px; left: -145px;}
+.nav ul .li7 .licontent{ width: 600px; height: 417px; position: absolute; top: 40px; left: -205px;}
+.nav ul .li8 .licontent{ width: 598px; height: 378px; position: absolute; top: 40px; left: -245px;}
+.nav ul .li9 .licontent{ width: 610px; height: 262px; position: absolute; top: 40px; left: -314px;}
+
+.nav ul .li5 .licontent dl,
+.nav ul .li6 .licontent dl,
+.nav ul .li7 .licontent dl,
+.nav ul .li8 .licontent dl,
+.nav ul .li9 .licontent dl{ height: 40px; display: inline-block;}
+
+.nav ul .li5 .licontent .bao-left dl dt,
+.nav ul .li6 .licontent .bao-left dl dt,
+.nav ul .li7 .licontent .bao-left dl dt,
+.nav ul .li8 .licontent .bao-left dl dt,
+.nav ul .li9 .licontent .bao-left dl dt{ height: 14px; display: inline-block; line-height: 14px;}
+
+.nav ul .li5 .licontent .bao-left dl dd,
+.nav ul .li6 .licontent .bao-left dl dd,
+.nav ul .li7 .licontent .bao-left dl dd,
+.nav ul .li8 .licontent .bao-left dl dd,
+.nav ul .li9 .licontent .bao-left dl dd{ height: 14px; display: inline-block;}
+
+
+
+.nav ul .li5 .licontent .licontent-l,
+.nav ul .li6 .licontent .licontent-l,
+.nav ul .li7 .licontent .licontent-l,
+.nav ul .li8 .licontent .licontent-l,
+.nav ul .li9 .licontent .licontent-l{ width: 360px;}
+
+.nav ul .li5 .licontent .licontent-r,
+.nav ul .li6 .licontent .licontent-r,
+.nav ul .li7 .licontent .licontent-r,
+.nav ul .li8 .licontent .licontent-r{ width: 200px;}
+.nav ul .li9 .licontent .licontent-r{ width: 150px;}
+
+.nav ul .li5 .licontent-r dl dd a,
+.nav ul .li6 .licontent-r dl dd a,
+.nav ul .li7 .licontent-r dl dd a,
+.nav ul .li8 .licontent-r dl dd a,
+.nav ul .li9 .licontent-r dl dd a{ display: inline-block; width: 70px; height: 10px; font-size: 10px;}
+
+.nav ul .li5 .licontent dl a:hover,
+.nav ul .li6 .licontent dl a:hover,
+.nav ul .li7 .licontent dl a:hover,
+.nav ul .li8 .licontent dl a:hover,
+.nav ul .li9 .licontent dl a:hover{ color: red;}
+
+.nav ul .li5 .licontent dl,
+.nav ul .li6 .licontent dl,
+.nav ul .li7 .licontent dl,
+.nav ul .li8 .licontent dl,
+.nav ul .li9 .licontent dl{ margin-bottom: 0px; border-bottom: 1px dotted #C2C2C2;}

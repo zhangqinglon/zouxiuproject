@@ -1,0 +1,214 @@
+
+/* 大图  */
+#wrap-bg{width:1410px; margin-top: 152px;}
+.bg{ height: 614px; width: 1204px; margin: 0 auto; }
+#wrap-bg img{ height: 612px; width: 1200px; margin: 0 auto;}
+.bg{ border: 1px solid #EEEEEE; width: 1203px; height: 615px; margin: 0 auto; position: relative; }
+/*试验区*/
+.bg .border_top { position: absolute; height: 4px; width: 0; font-size: 0; background: blue; top: 0; left: 0; transition: all 0.5s ease-out; }
+.bg .border_right { position: absolute; height: 0px; width: 4px; font-size: 0; background: yellow; bottom: 0; right: 0; transition: all 0.5s ease-out; }
+.bg .border_bottom { position: absolute; height: 4px; width: 0px; font-size: 0; background: green; right: 0; bottom: 0; transition: all 0.5s ease-out; }
+.bg .border_left { position: absolute; height: 0px; width: 4px; font-size: 0; background: pink; left: 0; top: 0; transition: all 0.5s ease-out; }
+#wrap-bg .hover .border_top,#wrap-bg .hover .border_bottom { width: 1203px}
+#wrap-bg .hover .border_left,#wrap-bg .hover .border_right { height: 615px}
+
+
+
+/**回到顶部*/
+#totop{width: 86px; position: fixed; right: 10px; top: 70%;}
+#totop a{text-decoration: none;}
+#totop p{}
+#totop p a{color: #888888;}
+#totop p.p1 a{ font-size: 40px;}
+#totop p.p2 a{ font-size: 15px;width: 86px; text-align: center; 
+display: inline-block; margin: 5px 0;}
+#totop ul{width: 86px; border: 1px solid #0060BF;}
+#totop ul li{width: 86px; height: 28px; line-height: 28px; border-bottom: 1px solid #C1C3C4;}
+#totop ul li a{width: 86px;display: inline-block; text-align: center; font-size: 14px;color: black;}
+#totop ul li.otop{width: 86px;display: inline-block; text-align: center; font-size: 14px; color: black;}
+
+/* 优惠专区 */
+
+#wrap-action{ width: 1410px;}
+.action{ width: 1118px; height: 104px; margin: 0 auto; line-height: 104px; position: relative;}
+
+.action1{ width: 175px; background: url(../img/quan_03.jpg) no-repeat left center; 
+height: 104px; position: absolute;}
+.action1 .p1{ position: absolute; left: 74px; top: -10px; font-size: 18px; font-weight: bold;}
+.action1 .p2{position: absolute; left: 74px;top: 14px;}
+
+.action2{ width: 175px; background: url(../img/quan_05.jpg) no-repeat left center; 
+height: 104px; position: absolute; left: 310px; top: 0px;}
+.action2 .p1{ position: absolute; left: 74px; top: -10px; font-size: 18px; font-weight: bold;}
+.action2 .p2{position: absolute; left: 74px;  top: 20px;}
+
+.action3{ width: 175px; background: url(../img/quan_07.jpg) no-repeat left center; 
+height: 104px; position: absolute; left: 620px; top: 0px;}
+.action3 .p1{ position: absolute; left: 74px; top: -10px; font-size: 18px; font-weight: bold;}
+.action3 .p2{position: absolute; left: 74px;  top: 20px;}
+
+.action4{ width: 175px; background: url(../img/quan_09.jpg) no-repeat left center; 
+height: 104px; position: absolute; left: 933px; top: 0px;}
+.action4 .p1{ position: absolute; left: 74px; top: -10px; font-size: 18px; font-weight: bold;}
+.action4 .p2{position: absolute; left: 74px;  top: 20px;}
+
+/* 尖货推荐 */
+#wrap-jianhuo{ width: 1410px;}
+.jianhuo{ width: 1200px; margin: 0 auto;}
+.jianhuo h3{ height: 80px; width: 308px; display:block; margin: 0 auto; line-height: 80px;}
+.jianhuo h3 a{height: 80px; width: 308px;line-height: 80px;font-size: 34px; color: black;}
+
+.jianhuo-t{ width: 1200px;}
+.jianhuo-t dl{ width: 400px; height: 300px; float: left;}
+.jianhuo-t dl dt{  width: 400px; height: 300px;}
+.jianhuo-t dl dt a{ width: 400px; height: 300px; display: block;}
+.jianhuo-t dl dt a img{ display: block;width: 400px; height: 300px;}
+
+.jianhuo-b{ width: 1200px; margin-top: 37px;}
+.jianhuo-b dl{ width: 400px; height: 300px; float: left;}
+.jianhuo-b dl dt{  width: 400px; height: 300px;}
+.jianhuo-b dl dt a{ width: 400px; height: 300px; display: block;}
+.jianhuo-b dl dt a img{ display: block;width: 400px; height: 300px;}
+
+/**热荐专题*/
+#wrap-zhuanti{ width: 1410px;}
+.zhuanti{ width: 1200px; margin: 0 auto;}
+.zhuanti h3{ height: 80px; width: 308px; display:block; margin: 0 auto; line-height: 80px;}
+.zhuanti h3 a{height: 80px; width: 308px;line-height: 80px;font-size: 34px; color: black;}
+.zhuanti button{ display: block; width: 152px; height: 32px; margin: 0 auto; margin-top: 37px;
+ margin-bottom: 22px; background: #0094FF; border-radius: 20%;
+}
+
+.zhuanti-t,
+.zhuanti-c,
+.zhuanti-b{ width: 1200px;}
+.zhuanti-c,.zhuanti-b{ margin-top: 40px;} 
+
+.zhuanti-t dl,
+.zhuanti-c dl,
+.zhuanti-b dl{ width: 600px; height: 300px; float: left;}
+
+.zhuanti-t dl dt,
+.zhuanti-c dl dt,
+.zhuanti-b dl dt{  width: 600px; height: 300px;}
+
+.zhuanti-t dl dt a,
+.zhuanti-c dl dt a,
+.zhuanti-b dl dt a{ width: 600px; height: 300px; display: block;}
+
+.zhuanti-t dl dt a img,
+.zhuanti-c dl dt a img,
+.zhuanti-b dl dt a img{ display: block;width: 600px; height: 300px;}
+
+.zhuanti-t dl dt a img:hover,
+.zhuanti-c dl dt a img:hover,
+.zhuanti-b dl dt a img:hover{width: 600px; height: 300px; transform: scale(1.2); transition:transform 1.5s}
+
+.zhuanti-t dl dt:hover,
+.zhuanti-c dl dt:hover,
+.zhuanti-b dl dt:hover { overflow: hidden;}
+
+/**精选卖场*/
+#wrap-maichang{ width: 1410px;}
+.maichang h3{ height: 80px; width: 308px; display:block; margin: 0 auto; line-height: 80px;}
+.maichang h3 a{height: 80px; width: 308px;line-height: 80px;font-size: 34px; color: black;}
+.maichang{ width: 1200px; margin: 0 auto;}
+.maichang1{width: 1200px;}
+.maichang2{width: 1200px; margin-top: 36px;}
+.maichang3{width: 1200px; margin-top: 36px;}
+.maichang4{width: 1200px; margin-top: 36px;}
+
+.maichang1 dl,
+.maichang2 dl,
+.maichang3 dl,
+.maichang4 dl{ width: 400px; height: 300px; float: left;}
+
+.maichang1 dl dt,
+.maichang2 dl dt,
+.maichang3 dl dt,
+.maichang4 dl dt{  width: 400px; height: 300px;}
+
+.maichang1 dl dt a,
+.maichang2 dl dt a,
+.maichang3 dl dt a,
+.maichang4 dl dt a{ width: 400px; height: 300px; display: block;}
+
+.maichang1 dl dt a img,
+.maichang2 dl dt a img,
+.maichang3 dl dt a img,
+.maichang4 dl dt a img{ display: block;width: 400px; height: 300px;}
+
+.maichang1 dl dt a img:hover,
+.maichang2 dl dt a img:hover,
+.maichang3 dl dt a img:hover,
+.maichang4 dl dt a img:hover{ transform: scale(1.05);width: 400px; height: 300px; display: block;
+transition:transform 1s
+}
+
+.maichang1 dl dt:hover,
+.maichang2 dl dt:hover,
+.maichang3 dl dt:hover,
+.maichang4 dl dt:hover{overflow: hidden;}
+
+
+.maichang button{ display: block; width: 152px; height: 32px; margin: 0 auto; margin-top: 37px;
+ margin-bottom: 22px; background: #0094FF; border-radius: 20%;
+}
+
+/**走秀豪车*/
+#wrap-bus{width: 1410px;}
+.bus{ width: 1200px; height: 402px; margin: 0 auto;}
+.bus a{ width: 1200px; height: 402px; display: inline-block;}
+.bus a img{ width: 1200px; height: 402px; display: inline-block;}
+
+
+/*发现好货*/
+#wrap-faxian{width: 1410px;}
+.faxian{ width: 1200px; margin: 0 auto;}
+.faxian h3{ height: 80px; width: 308px; display:block; margin: 0 auto; line-height: 80px;}
+.faxian h3 a{height: 80px; width: 308px;line-height: 80px;font-size: 34px; color: black;}
+.faxian1{}
+
+.faxian1 dl,
+.faxian2 dl,
+.faxian3 dl,
+.faxian4 dl{ float: left; margin-right: 13px; border: 1px solid #C2C2C2; display: inline-block;}
+
+.faxian1 dl.four,
+.faxian2 dl.four,
+.faxian3 dl.four,
+.faxian4 dl.four{ margin-right: 0;}
+
+
+.faxian1 dl dt,
+.faxian2 dl dt,
+.faxian3 dl dt,
+.faxian4 dl dt{ border-bottom: 1px solid #C2C2C2;}
+
+
+.faxian1 dl dd,
+.faxian2 dl dd,
+.faxian3 dl dd,
+.faxian4 dl dd{ height: 105px; display: inline-block;}
+
+
+.faxian1 dl dd p,
+.faxian2 dl dd p,
+.faxian3 dl dd p,
+.faxian4 dl dd p{ height: 30px; line-height: 30px; text-indent: 46px;} 
+
+
+.faxian dl dd p.p1 a{ color: #575757; margin-top: 12px;} 
+.faxian dl dd p.p2 a{ color: #909090;} 
+.faxian dl dd p.p3 a{ color: #5a5a5a;} 
+
+.faxian dl:hover{ border-color: black;}
+
+
+.faxian2{ margin-top: 20px;}
+.faxian3{ margin-top: 20px;}
+.faxian4{ margin-top: 20px;}
+.faxian button{ display: block; width: 152px; height: 32px; margin: 0 auto; margin-top: 37px;
+ margin-bottom: 22px; background: #0094FF; border-radius: 20%;
+}
+

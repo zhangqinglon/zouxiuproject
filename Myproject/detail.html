@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>详情页</title>
+		 <!--js plugin -->
+		<script type="text/javascript" src="libs/jquery/jquery-2.1.1.min.js" ></script>
+		<script type="text/javascript" src="libs/jqzoom/jquery.jqzoom.min.js" ></script>
+		
+		<link rel="stylesheet" href="css/reset.css" />
+		
+		<link rel="stylesheet" href="css/detail.css" />
+		
+				
+		<script type="text/javascript" src="js/detail.js" ></script>
+		
+        <!--<script type="text/javascript" src="libs/fadajing/jquery-1.8.2.min.js" ></script>
+		<script type="text/javascript" src="libs/fadajing/jquery.colorbox-min.js" ></script>-->
+		<!--css framework -->
+		<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+		<script type="text/javascript" src="libs/cookie/jquery.cookie.js" ></script>
+		
+			
+
+		
+		
+	</head>
+	<body>
+		<div id="headerbox"></div>
+		
+		<!--回到顶部-->
+		<div id="totop">
+			
+			<ul>
+				<li class="li1">关闭</li>
+				<li class="li2"><i class="fa fa-phone"></i><a href="#">在线客服</a></li>
+				<li class="li3"><i class="fa fa-shopping-bag"></i><a href="shopcar.html">购物袋</a></li>
+				<li class="li4"><i class="fa fa-thumbs-down"></i><a href="#">我要吐槽</a></li>
+				<li class="otop">回顶部</li>
+			</ul>
+		</div>
+		
+		<!-- 微信  -->
+		<div id="weixingsao">
+			<img src="img/weixingapp.png" />
+		</div>
+		
+		
+		<div id="wrap-loaction">
+			<div class="location">
+				<p><i class="fa fa-terminal"></i>你所在的位置：<a>鞋子>女士牛皮鞋</a></p>
+			</div>
+		</div>
+		
+		
+		
+		<div id="wrap-xiang">
+			<div class="xiang clear">			
+				<div class="xiang-l fl">
+					
+					
+					
+			<!--放大镜-->		
+			<div class="bigPic jqzoom">
+				<img src="img/xiezisan.jpg" jqimg="img/daxiezi.jpg" id="imgshang" >
+				
+			</div><br />
+			<img src="img/xiezier_07.jpg"/>
+			<img src="img/xiezier_07.jpg" />
+			<img src="img/xiezier_07.jpg" />
+			<img src="img/xiezier_07.jpg" />
+			<img src="img/xiezier_07.jpg" />
+					
+				
+				</div>	
+				<div class="xiang-r fl">
+					<div class="xiang-r-1">
+						<p class="p1"><a href="#">女士牛皮短统靴</a></p>
+						<p class="p2">
+							<span class="span1">品     牌:Jimss</span>
+							<span class="span2"><a href="#">已有299条品论</a></span>
+							<span class="span3">编号：111111</span>
+						</p>
+					</div>
+					<div class="xiang-r-2">
+						<p class="p1 clear">
+							<label class="fl">走秀价:￥</label><span class="fl oprice">7520</span>
+						</p>
+						<p class="p2 clear">
+							<label class="fl">发货地：</label>
+							<span class="fl">意大利>米兰</span>
+							<span class="fl span1">预计7-14天送达</span>
+							<a href="#" class="fl">查看匹配流程</a>
+						</p>
+						<p class="p3">
+							<label>税费：</label>
+							<span>有卖家承担</span>
+							<a href="#">详细说明</a>
+						</p>
+					</div>
+					<div class="xiang-r-3">
+						<div class="div1">
+							<label>颜      色：</label><span>黑色</span>
+						</div>
+						<div class="div2">
+							<label>尺      码：</label>
+							<span>35</span><span>35</span><span>35</span><span>35</span><span>35</span><a href="#">尺码指南</a>
+						</div>
+						<div class="div3">
+							<label>数     量：</label><i class="i1">-</i><input type="text" value="0"></input><i class="i2">+</i>件
+						</div>
+					</div>
+					<div class="xiang-r-4">
+						<p class="p1">
+							<a class="span1" href="#">支持分期付款</a>
+							<a class="span1" href="#">由MARLLEN FISHON发货</a>
+							<a class="span1" href="#">由走秀网提供售后服务</a>
+						</p>
+						<p class="p2">
+							<span class="span1">立即购买</span>
+							<span class="span2">加入购物车</span>
+							<a href="#">收藏</a>
+						</p>
+						<p class="p3">
+							<a href="#">电话订购：400-44444-88</a>
+							<label>（8：00——24：00）</label>
+						</p>
+					</div>
+					<div class="xiang-r-5">
+						<span class="span1">
+							<label>扫一扫二维码分享给朋友</label>
+						</span>
+						<span class="span2 clear">
+							<label class="fl">分享到：</label>
+							<div class="fl"></div><span></span><span></span><span></span><span></span><span></span></div>
+						</span>
+					</div>
+				</div>
+			</div>
+	
+	    <div id="wrap-shangping">
+	    	<div class="shangping">
+	    		<span class="span1">商品信息</span>	
+	    		<span class="span2">品牌评论</span>	
+	    		<span class="span3">走秀承诺</span>	
+	    		<span class="span4">服务保障</span>	    		
+	    		<i class="i1">￥7520</i>
+	    		<i class="i2">放入购物车</i>
+	    		
+	    	</div>
+	    </div>
+		
+		<div id="wrap-messg">
+			<div class="messg">
+				<div class="messg-1">
+					<p>商品属性</p>
+					<table>
+						<tr>
+							<td>鞋靴分类：短统靴</td>
+							<td>鞋靴分类：短统靴</td>
+							<td>鞋靴分类：短统靴</td>
+						</tr>
+						<tr>
+							<td>鞋靴分类：短统靴</td>
+							<td>鞋靴分类：短统靴</td>
+							<td>鞋靴分类：短统靴</td>
+						</tr>
+						<tr>
+							<td>鞋靴分类：短统靴</td>
+							<td>鞋靴分类：短统靴</td>
+							<td>鞋靴分类：短统靴</td>
+						</tr>
+						<tr>
+							<td>鞋靴分类：短统靴</td>
+							<td>鞋靴分类：短统靴</td>
+							<td>鞋靴分类：短统靴</td>
+						</tr>
+						<tr>
+							<td colspan="3">鞋靴分类：短统靴</td>
+							
+						</tr>
+					</table>
+				</div>
+				
+				<div class="messg-2">
+					<p>尺码对照</p>
+					<span>女士鞋尺码对照表</span>
+					<div class="imgbox"></div>
+					<label class="label1">温馨提示</label>
+					<ul>
+						<li>1.每一个品牌因过呗的不同，鞋码表示也不同，请按照本商品所对应的过呗进行对照请按照本商品所对应的过呗进行对照</li>
+						<li>2.每一个品牌因过呗的不同，鞋码表示也不同，请按照本商品所对应的过呗进行对照请按照本商品所对应的过呗进行对照</li>
+						<li>3.每一个品牌因过呗的不同，鞋码表示也不同，请按照本商品所对应的过呗进行对照请按照本商品所对应的过呗进行对照</li>
+						<li>4.每一个品牌因过呗的不同，鞋码表示也不同，请按照本商品所对应的过呗进行对照请按照本商品所对应的过呗进行对照</li>
+						<li>5.每一个品牌因过呗的不同，鞋码表示也不同，请按照本商品所对应的过呗进行对照请按照本商品所对应的过呗进行对照</li>
+					</ul>
+					<div class="jiaotu"></div>
+				</div>
+				
+				<div class="messg3">
+					<p>全球名店优势</p>
+					<div class="youshi clear">
+						<div class="youshi-1 fl">
+							<p class="p1">100%正品保障</p>
+							<p class="p2">走秀全与品牌商官方，以及授权经销商和正规零售商合作，采购流程严谨，确保100%正品</p>
+						</div>
+						<div class="youshi-2 fl">
+							<p class="p1">100%正品保障</p>
+							<p class="p2">走秀全与品牌商官方，以及授权经销商和正规零售商合作，采购流程严谨，确保100%正品</p>
+						</div>
+						<div class="youshi-3 fl">
+							<p class="p1">100%正品保障</p>
+							<p class="p2">走秀全与品牌商官方，以及授权经销商和正规零售商合作，采购流程严谨，确保100%正品</p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="messg4">
+					<p class="p1">温馨提示</p><br />
+					<label>正品与防伪：</label>
+					<p>我们承诺100%正品，不封商品还会陪伴走秀专用防伪标示，以确保物流过程中的安全性</p><br />
+					<label>正品与防伪：</label>
+					<p>我们承诺100%正品，不封商品还会陪伴走秀专用防伪标示，以确保物流过程中的安全性</p><br />
+					<label>正品与防伪：</label>
+					<p>我们承诺100%正品，不封商品还会陪伴走秀专用防伪标示，以确保物流过程中的安全性</p><br />
+					<label>正品与防伪：</label>
+					<p>我们承诺100%正品，不封商品还会陪伴走秀专用防伪标示，以确保物流过程中的安全性</p><br />
+					<label>正品与防伪：</label>
+					<p>我们承诺100%正品，不封商品还会陪伴走秀专用防伪标示，以确保物流过程中的安全性</p><br />
+					<label>正品与防伪：</label>
+					<p>我们承诺100%正品，不封商品还会陪伴走秀专用防伪标示，以确保物流过程中的安全性</p><br />
+					<label>正品与防伪：</label>
+					<p>我们承诺100%正品，不封商品还会陪伴走秀专用防伪标示，以确保物流过程中的安全性</p><br />
+				</div>
+				
+				<div class="messg5">
+					<p>商品实拍</p>
+					<label>温馨提示：</label><span>我们承诺100%正品，不封商品还会陪伴走秀专用防伪标示，以确保物流过程中的安全性</span>
+					<div class="zhaopian"></div>
+				</div>
+				
+				
+				
+			</div>
+		</div>
+			
+			<div id="wrap-pinlun">
+				<div class="pinlun">
+					<div class="pinlun-t clear">
+						<div class="pinlun-t-l fl clear">
+							<div class="pinlun-t-l-l fl">
+								<p>品牌满意度</p>
+								<p>5分</p>
+								<p>*****</p>
+							</div>
+							<div class="pinlun-t-l-f fl">
+								<p>品牌满意度</p>
+								<p>5分</p>
+								<p>*****</p>
+							</div>
+						</div>
+						<div class="pinlun-t-c fl">
+							<p>发表用户评论送购物卷</p>
+						</div>
+						<div class="pinlun-t-r fl">
+							<span class="fapinlun">发表品论</span>
+							<p>每天签一百名品论可获优惠卷</p>
+							<a href="#">品论规则</a>
+						</div>
+					</div>
+					<div class="pinlun-b clear">						
+						  <ul class="clear fl">
+							<li>
+								<label>全部（6666）</label>
+								<div class="boxheight boxblack">
+								<div class="box clear box1 ">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是全部</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="box clear">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是全部</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="box clear">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是全部</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="box clear">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是全部</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								</div>
+							</li>
+							<li>
+								<label>满意（6666）</label>
+								<div class="boxheight">
+								<div class="box clear box1">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是满意</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="box clear">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是全部</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="box clear">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是满意</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="box clear">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是满意</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								</div>
+							</li>
+							<li>
+								<label>一般（21）</label>
+								<div class="boxheight">
+								<div class="box clear box1">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是一般</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="box clear">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是全部</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="box clear">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是一般</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="box clear">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是一般</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								</div>
+							</li>
+							<li>
+								<label>差评（21）</label>
+								<div class="boxheight">
+								<div class="box clear box1">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是差评</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="box clear">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是全部</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="box clear">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是差评</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="box clear">
+									<div class="fl box-l">
+										<p><img src="img/yonghu.gif"/></img></p>
+										<p>XXX</p>
+									</div>
+									<div class="fl box-r clear">
+										<div class="fl"><img src="img/xiaoxie.jpg"/></div>
+										<ul class="fl oul">
+											<li>我是差评</li>
+											<li>qqqqqq</li>
+											<li>
+												<p>qqqqqqq</p>
+												<span></span>
+											</li>
+										</ul>
+									</div>
+								</div>
+								</div>
+							</li>
+						  </ul>
+						 <p class="fr select">
+						 	<select>
+						 		<option>品牌全部品论</option>
+						 		<option>2</option>
+						 		<option>3</option>
+						 		<option>4</option>
+						 	</select>
+						 	<select>
+						 		<option>商品全部类型</option>
+						 		<option>3</option>
+						 		<option>2</option>
+						 		<option>1</option>
+						 	</select>
+						 </p>
+						
+					</div>
+					<div class="quanbu">
+						<p>
+							<span class="span1"><a href="#">查看品牌全部评论</a></span>
+							<span class="span2">
+								<a href="#">第一页</a>
+								<a href="#">上一页</a>
+								<a href="#" class="yeshu moren">1</a>
+								<a href="#" class="yeshu">2</a>
+								<a href="#" class="yeshu">3</a>
+								<a href="#">下一页</a>
+								<a href="#">最后页</a>
+							</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			
+			<!--建立模态窗口来制作评论-->
+			
+			<div id="motai" style="width: 300px; height: 300px; background: orange; display: none; position: absolute; left: 950px; top: 6100px; opacity: 0.5; filter: alpha(opacity=50);">
+			<div id="span1" style="background: purple; width: 300px; height: 30px;">
+				<input type="button" value="关闭" style="width: 60px; height: 40px; text-align: center; margin-left: 120px;" id="motaiclose" />
+			</div>
+			<textarea style="width: 300px; height: 200px; border: 1px solid #000000; background: #CCCCCC; text-align: left; display: inline-block;"id="motaitxt"></textarea>
+			<input type="button" value="发表品论" style="width: 80px; height: 40px; text-align: center; margin-left: 120px;" id="motaiset"/>
+			</div>
+			
+
+		
+		<div id="footbox"></div>
+	</body>
+</html>
