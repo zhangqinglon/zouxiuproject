@@ -193,6 +193,7 @@ $(function(){
      		if (confirm('亲你真的不要我了吗?')) {
      	   $.cookie('mydata',null);
      	   $('.goodmess-detial-box-boxnum1').remove();
+     	   totoalnum();
      	   alert('删除成功');
      	   }    else{
      	   alert('删除失败');
@@ -206,6 +207,7 @@ $(function(){
      		if (confirm('亲你真的不要我了吗?')) {
      	   $.cookie('mydata2',null);
      	   $('.goodmess-detial-box-boxnum2').remove();
+     	   totoalnum();
      	   alert('删除成功');
      	   }    else{
      	   alert('删除失败');
@@ -288,6 +290,8 @@ $(function(){
        	   $.cookie('mydata',null);
        	   $.cookie('mydata2',null);
        	   $('.goodmess-detial-box-boxnum').remove();
+       	   $('.yixuan').text('');
+       	   $('.otatal-show').text('￥'+0); 
        }
 	 	
 	 })
